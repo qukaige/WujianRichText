@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="wujian.wjrichtext.WjRichText" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Wujian Rich Text</name>
+    <description>My widget description</description>
+   <icon>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</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="richTextVal" type="attribute" required="true">
+                <caption>RichText Value</caption>
+                <description>Value only String is supported.</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="lang" type="enumeration" defaultValue="cn">
+                <caption>Lang</caption>
+                <description>Select the richtext default language</description>
+                <enumerationValues>
+                    <enumerationValue key="cn">zh-cn</enumerationValue>
+                    <enumerationValue key="en">en</enumerationValue>
+                </enumerationValues>
+            </property>
+            <property key="readOnly" type="boolean" defaultValue="false">
+                <caption>ReadOnly</caption>
+                <description>If you don't want to edit, select Yes.</description>
+            </property>
+            <property key="height" type="integer" defaultValue="400">
+                <caption>Height</caption>
+                <description>Set richtext edit height</description>
+            </property>
+            <property key="uploadImageSize" type="integer" defaultValue="1000">
+                <caption>UploadImageSize</caption>
+                <description>Set richtext upload image size,  1000 indicates 1 MB.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
