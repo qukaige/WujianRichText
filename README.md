@@ -25,7 +25,7 @@ Mendix 9.x
 ## Installation Configuration
 Place the widget in a data view, list view or template grid with a data source that has a string attribute and select the 'Value attribute' that contains the editable text.
 
-## Screenshots
+## Screenshots 
 
 ![alt text](images/1.png)
 ![alt text](images/6.png)
