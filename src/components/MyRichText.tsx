@@ -39,6 +39,29 @@ const MyRichText: React.FC<MyRichTextProps> = (props) => {
             uploadImage: {
                 // 小于该值就插入 base64 格式（而不上传），默认为 0
                 base64LimitSize: props.uploadImageSize * 1024 // 5kb
+            },
+            fontSize: {
+                fontSizeList: [
+                    "10px",
+                    "12px",
+                    "13px",
+                    "14px",
+                    "16px",
+                    "18px",
+                    "19px",
+                    "20px",
+                    "22px",
+                    "23px",
+                    "24px",
+                    "26px",
+                    "28px",
+                    "30px",
+                    "32px",
+                    "38px",
+                    "40px",
+                    "42px",
+                    "48px"
+                ]
             }
         }
     }
