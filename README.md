@@ -1,4 +1,4 @@
-## RichText2
+## WujianRichText
 Lightweight Web Rich Text Editor, easy to configure and easy to use. wangEditor 5 based implementation.
 
 ## Features

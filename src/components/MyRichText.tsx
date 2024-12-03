@@ -51,8 +51,16 @@ const MyRichText: React.FC<MyRichTextProps> = (props) => {
     //     console.log(2)
     // }
     editorConfig.onChange = (editor: IDomEditor) => {
-        const currentProps = propsRef.current;
-        currentProps.richTextVal?.status === "available" && currentProps.richTextVal.setValue(editor.getHtml())
+        if ((window as any).timer) {
+            clearTimeout((window as any).timer);
+            (window as any).timer = null;
+        }
+        (window as any).timer = setTimeout(() => {
+            const currentProps = propsRef.current;
+            currentProps.richTextVal?.status === "available" && currentProps.richTextVal.setValue(editor.getHtml())
+            setHtml(editor.getHtml())
+        }, 300);
+        return;
     }
     // 及时销毁 editor ，重要！
     useEffect(() => {
