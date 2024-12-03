@@ -10,6 +10,7 @@ export interface MyRichTextProps {
     readOnly: boolean;
     uploadImageSize: number;
     height: number;
+    zIndex: number;
 }
 
 const MyRichText: React.FC<MyRichTextProps> = (props) => {
@@ -99,7 +100,7 @@ const MyRichText: React.FC<MyRichTextProps> = (props) => {
     // console.log('editor.getAllMenuKeys()=', editor?.getAllMenuKeys())
     return (
         <div>
-            <div style={{ border: '1px solid #ccc', zIndex: 100 }}>
+            <div style={{ border: '1px solid #ccc', zIndex: props.zIndex }}>
                 <Toolbar
                     editor={editor}
                     defaultConfig={toolbarConfig}

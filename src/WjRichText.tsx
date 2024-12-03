@@ -11,6 +11,7 @@ export class WjRichText extends Component<WjRichTextContainerProps> {
         richTextVal={this.props.richTextVal}
         lang={this.props.lang}
         height={this.props.height}
+        zIndex={this.props.zIndex}
         uploadImageSize={this.props.uploadImageSize}
         readOnly={this.props.readOnly}
          />;

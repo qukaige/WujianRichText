@@ -35,6 +35,10 @@
                 <caption>UploadImageSize</caption>
                 <description>Set richtext upload image size,  1000 indicates 1 MB.</description>
             </property>
+            <property key="zIndex" type="integer" defaultValue="1000">
+                <caption>zIndex</caption>
+                <description>Set page zIndex.</description>
+            </property>
         </propertyGroup>
     </properties>
 </widget>

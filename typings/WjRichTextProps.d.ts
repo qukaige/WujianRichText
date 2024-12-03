@@ -18,6 +18,7 @@ export interface WjRichTextContainerProps {
     readOnly: boolean;
     height: number;
     uploadImageSize: number;
+    zIndex: number;
 }
 
 export interface WjRichTextPreviewProps {
@@ -35,4 +36,5 @@ export interface WjRichTextPreviewProps {
     readOnly: boolean;
     height: number | null;
     uploadImageSize: number | null;
+    zIndex: number | null;
 }
